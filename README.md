@@ -1,5 +1,7 @@
 # weather.sky
 
+[screenshot](./screenshot.png)
+
 a weather app made for quick and glancable forecast.
 
 - minimal design

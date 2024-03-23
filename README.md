@@ -1,6 +1,6 @@
 # weather.sky
 
-[screenshot](./screenshot.png)
+[screenshot](https://github.com/prathamt10/weather.sky/blob/main/screenshot.png)
 
 a weather app made for quick and glancable forecast.
 

@@ -6,11 +6,85 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Comfortaa', sans-serif;
+    color: white;
 }
 
 body {
+    width: 100vw;
+    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    font-size: 80px;
     font-family: 'Comfortaa', sans-serif;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.content {
+    width: 400px;
+    height: auto;
+    border: 3px solid black;
+    margin: 3%;
+    padding: 1.5em;
+    border-radius: 1em;
+    background: rgb(0 0 0 / 40%);
+    flex: initial;
+    display: flex;
+    flex-direction: column;
+}
+
+.content > * {
+    font-size: 1.5em;
+    margin: 0.4em ;
+}
+
+input {
+    background: none;
+    border: 4px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 250px;
+    color: white;
+    font-size: large;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: white;
+}
+
+button {
+    background: none;
+    padding: 0.5em;
+    font-weight: 600;
+    border: 3px solid white;
+    border-radius: 0.7em;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+}
+
+.condition-text {
+    font-size: 3em;
+    margin-top: 1.2em;
+    margin-bottom: 0.2em;
+}
+
+.temp-actual {
+    font-size: 3em;
+    margin-top: 0.2em;
+    margin-bottom: 1.2em;
+}
+
+.last-updated {
+    margin-top: 3em;
+    font-size: 1em;
 }

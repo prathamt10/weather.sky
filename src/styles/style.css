@@ -76,15 +76,17 @@ input::placeholder {
 }
 
 button {
-    background: none;
+    background-color: rgb(250 250 250 / 0%);
     padding: 0.5em;
     font-weight: 600;
     border: 3px solid white;
     border-radius: 0.7em;
+    transition: background-color 0.5s;
+    will-change: background-color;
 }
 
 button:hover {
-    background-color: #ffffff;
+    background-color: rgb(250 250 250 / 100%);
     color: black;
     cursor: pointer;
 }

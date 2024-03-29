@@ -10,9 +10,16 @@ import day_snow from '../assets/day-snow.jpg';
 import night_snow from '../assets/night-snow.jpg';
 import thunder from '../assets/thunder.jpg';
 
-function getBackground(condition_code, isDay) {
+/**
+ * Returns the background image URL based on the weather condition code and whether it's day or night.
+ *
+ * @param {number} condition_code - The weather condition code.
+ * @param {boolean} is_day - Indicates whether it's day or night.
+ * @return {string} The background image URL.
+ */
+function getBackground(condition_code, is_day) {
     let bg_img;
-    if (isDay) {
+    if (is_day) {
         switch (condition_code) {
             case 1000:
                 bg_img = `url(\'${day_sunny}\')`;
